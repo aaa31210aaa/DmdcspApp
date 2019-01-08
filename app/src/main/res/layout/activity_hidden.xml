@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="tab.homedetail.Hidden">
+
+    <include layout="@layout/common_title"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbarlayout"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hidden_rectification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x15"
+            android:text="@string/hidden_rectification" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_deep"></View>
+
+        <TextView
+            android:id="@+id/hidden_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x15"
+            android:text="@string/hidden_check" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_deep"></View>
+
+        <TextView
+            android:id="@+id/hidden_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x15"
+            android:text="@string/hidden_info" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_deep"></View>
+
+        <TextView
+            android:id="@+id/hidden_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x15"
+            android:text="@string/hidden_detail" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_deep"></View>
+
+        <TextView
+            android:id="@+id/hidden_flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x15"
+            android:text="@string/hidden_flow" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_deep"></View>
+
+        <TextView
+            android:id="@+id/hidden_case"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x15"
+            android:text="@string/hidden_case" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_deep"></View>
+
+        <TextView
+            android:id="@+id/hidden_government"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x15"
+            android:text="@string/hidden_government" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_deep"></View>
+    </LinearLayout>
+</RelativeLayout>
